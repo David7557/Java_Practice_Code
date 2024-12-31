@@ -1,3 +1,4 @@
+/*
 package mockprepare;
 class Vehicle{
     private String brand;
@@ -25,7 +26,7 @@ interface Electric {
     void displayBatteryCapacity();
 }
 
-class ElectricCar extends Car implements Electric{
+public class ElectricCar extends Car implements Electric{
     private int batteryCapacity;
     ElectricCar(String brand, String model, int batteryCapacity){
         super(brand, model);
@@ -53,3 +54,4 @@ public class Hybride_Main {
         tesla.displayInfo();
     }
 }
+*/
